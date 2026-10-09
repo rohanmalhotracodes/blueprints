@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
   title: Guardian live GitHub test
-  version: 1.0.0
+  version: 1.1.1
 paths:
   /pets:
     get:
@@ -41,3 +41,6 @@ components:
           type: string
         name:
           type: string
+        avatarUrl:
+          type: string
+          format: uri
